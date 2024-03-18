@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 4px;
+}
+
+.item {
+  width: calc((100% - 48px) / 4);
+}

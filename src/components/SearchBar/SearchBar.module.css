@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(25, 25, 125);
+  padding: 4px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 0;
+  background-color: white;
+  border: solid white;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.input {
+  width: 100%;
+  font-size: 18px;
+  border: none;
+}
+
+.input:focus,
+.input:active {
+  outline: white;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  padding-top: 6px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  border: none;
+}

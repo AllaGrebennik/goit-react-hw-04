@@ -1,0 +1,12 @@
+.image {
+  height: 160px;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.image:hover,
+.image:focus,
+.image:active {
+  transform: scale(1.025);
+}

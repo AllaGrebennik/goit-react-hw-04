@@ -1,0 +1,17 @@
+.btn {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  padding: 4px;
+  background-color: rgb(25, 25, 125);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: rgb(25, 25, 225);
+}
